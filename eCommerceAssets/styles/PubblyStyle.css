@@ -1,0 +1,440 @@
+@charset "utf-8";
+/* Global Styles */
+a:hover {
+	color: rgba(255,255,255,1.00);
+}
+/*header*/
+header {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#headerLinks {
+	float: right;
+	padding-bottom: 1%;
+	padding-top:1%;
+	font-family: 'Montserrat', sans-serif;
+	background-color: rgba(255,255,255,1.00);
+}
+/* Links in header */
+#headerLinks a {
+	text-decoration: none;
+	color: rgba(136,103,172,1.00);
+	font-size: 1em;
+}
+/* Offer text banner*/
+#offer {
+	font-family: 'Montserrat', sans-serif;
+	clear: both;
+	background-color: #3a4d81;
+	color: white;
+	padding-left: 2%;
+	padding-top:1%;
+	padding-bottom: 1%;
+	border-radius: 5px;
+	text-align:left;
+	letter-spacing: 1px;
+
+}
+#splash {
+	clear:both;
+	overflow: auto;
+
+}
+.balls  {
+	float: left;
+	padding-left: 1.5%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+	width: 14%;
+}
+.button1 {
+	position: relative;
+	background-image: url(../../homepageAssets/purplep.svg);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	text-decoration:none;
+	width: 84%;
+	height: 164px;
+	cursor:pointer;
+	background-color:white;
+	border:none;
+}
+.button1:hover {
+	background-image: url(../../homepageAssets/bookpur.svg);
+}
+.button2 {
+	position: relative;
+	background-image: url(../../homepageAssets/blueu.svg);
+    background-repeat: no-repeat;
+	background-size:100% 100%;
+	text-decoration:none;
+	width: 84%;
+	height: 164px;
+	cursor:pointer;
+	background-color:white;
+	border:none;
+}
+.button2:hover {
+	background-image: url(../../homepageAssets/audioblue.svg);
+}
+.button3 {
+	position: relative;
+    background-image: url(../../homepageAssets/orangeb.svg);
+    background-repeat: no-repeat;
+	background-size:100% 100%;
+	width: 84%;
+	height: 164px;
+	text-decoration:none;
+	cursor:pointer;
+	background-color:white;
+	border:none;
+}
+.button3:hover {
+	background-image: url(../../homepageAssets/textorange.svg);
+}
+.button4 {
+	position: relative;
+	background-image: url(../../homepageAssets/redb.svg);
+    background-repeat: no-repeat;
+	background-size:100% 100%;
+	width: 84%;
+	height: 164px;
+	text-decoration:none;
+	cursor:pointer;
+	background-color:white;
+	border:none;
+}
+.button4:hover {
+	background-image: url(../../homepageAssets/animred.svg);
+}
+.button5 {
+	position: relative;
+    background-image: url(../../homepageAssets/bluel.svg);
+    background-repeat: no-repeat;
+	background-size:100% 100%;
+	width: 84%;
+	height: 164px;
+	text-decoration:none;
+	cursor:pointer;
+	background-color:white;
+	border:none;
+}
+.button5:hover {
+	background-image: url(../../homepageAssets/quizblue.svg);
+}
+.button6 {
+	position: relative;
+    background-image: url(../../homepageAssets/greeny.svg);
+    background-repeat: no-repeat;
+	background-size:100% 100%;
+	width: 84%;
+	height: 164px;
+	text-decoration:none;
+	cursor:pointer;
+	background-color:white;
+	border:none;
+}
+.button6:hover {
+	background-image: url(../../homepageAssets/gamesgreen.svg);
+}
+/* Main content of the site */
+#content {
+	clear: both;
+	overflow: auto;
+	padding-top: 2%;
+}
+/* main content of the site */
+#content .mainContent {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+
+.purpledot {
+	width:15px;
+	height:15px;
+	border-radius:50px;
+	float:left;
+	background-color:#8867ac;
+	margin-left:68px;
+}
+
+.darkbluedot {
+	width:15px;
+	height:15px;
+	border-radius:50px;
+	float:left;
+	margin-left:6px;
+	background-color:#3a4d81;
+
+}
+.orangedot {
+	width:15px;
+	height:15px;
+	border-radius:50px;
+	float:left;
+	margin-left:6px;
+	background-color:#e36324;
+}
+.reddot {
+	width:15px;
+	height:15px;
+	border-radius:50px;
+	float:left;
+	margin-left:6px;
+	background-color:#b3252a;
+}
+.lightbluedot {
+	width:15px;
+	height:15px;
+	border-radius:50px;
+	float:left;
+	margin-left:6px;
+	background-color:#5aacc5;
+}
+.greendot {
+	width:15px;
+	height:15px;
+	border-radius:50px;
+	float:left;
+	margin-left:6px;
+	background-color:#91bd49;
+}
+
+/* Whole page content */
+#mainWrapper {
+	width: 80%;
+	padding-left: 10%;
+}
+/* Product rows for catalog */
+#content .mainContent .productRow {
+	overflow: auto;
+	color: rgba(146,146,146,1.00);
+}
+/* Each product Information in the catalog */
+.mainContent .productRow .productInfo {
+	float: left;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	width: 20%;
+}
+/* Prices of a products in catalog */
+.productRow .productInfo .price {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(136,103,172,1.00);
+	font-size: 22px;
+	position: relative;
+	top: -18px;
+}
+/* Content holder for products in catalog*/
+.productRow .productInfo .productContent {
+	position: relative;
+	top: -37px;
+	font-size: 14px;
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	color: #3a4d81;
+	white-space: pre-wrap;
+}
+/* Buy button for products in catalog */
+.productRow .productInfo .buyButton {
+	position: relative;
+	top: -48px;
+	width: 84%;
+	background-color: rgba(145,189,73,1.00);
+	height: 35px;
+	color: rgba(255,255,255,1.00);
+	border-style: none;
+	font-size: 1em;
+	text-transform: uppercase;
+	margin-top: 8px;
+	border-radius:5px;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing:1px;
+
+}
+/* footer */
+#mainWrapper footer {
+	clear: both;
+	overflow: auto;
+	background-color: rgba(136,103,172,1.00);
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	line-height: 1.8;
+	padding-top: 22px;
+	padding-left: 22px;
+	text-align: center;
+	padding-bottom: 22px;
+	padding-right: 22px;
+}
+/*Each footer content */
+#mainWrapper footer div {
+	width: 27%;
+	float: left;
+	padding-left: 4%;
+	padding-right: 2%;
+	color: rgba(255,255,255,1.00);
+	text-align: justify;
+}
+/* Links in footer */
+footer div a {
+	color: rgba(248,247,250,1.00);
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+/* Product's images in catalog */
+.productInfo div img {
+	width: 100%;
+}
+
+/* Container for links in footer */
+footer .footerlinks {
+	margin-top: -15px;
+}
+
+/* Media query for tablets */
+@media screen and (max-width:700px) {
+/* search field in sidebar */
+#content .sidebar #search {
+	display: none;
+}
+
+/*The sidebar and maincontent of page */
+#content {
+	position: relative;
+	top: -22px;
+	width: 100%;
+	overflow: hidden;
+}
+/*The link to be hidden in tablet view */
+.sidebar #menubar .menu ul .notimp {
+	display: none;
+}
+/* offer banners content */
+#mainWrapper #offer p {
+	font-size: small;
+}
+/* main content region of page */
+#mainWrapper #content .mainContent {
+	overflow: hidden;
+	width: 95%;
+	margin-top: 40px;
+}
+/* Prices of products in catalog view */
+.productRow .productInfo .price {
+	font-size: 19px;
+}
+/* Content holders in catalog view */
+.productRow .productInfo .productContent {
+	font-size: 16px;
+}
+/* Buy buttons in catalog view */
+.productRow .productInfo .buyButton {
+	font-size: 15px;
+}
+/* Container for links in footer */
+#mainWrapper footer .footerlinks {
+	float: none;
+	width: 100%;
+	position: relative;
+	top: 17px;
+	clear: both;
+	text-align: center;
+	left: 0%;
+	padding-bottom: 19px;
+}
+/* Container for each footer divisions */
+#mainWrapper footer div {
+	width: 44%;
+	text-align: justify;
+	font-size: 15px;
+}
+/* Links in footer */
+.footerlinks p a {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	display: inline;
+	padding-right: 35px;
+}
+/* Footer region */
+#mainWrapper footer {
+	padding-left: 16px;
+	overflow: hidden;
+}
+/* Links in header */
+header #headerLinks a {
+	padding-left: 0px;
+	padding-right: 30px;
+}
+/* Offer- Text banner */
+#mainWrapper #offer {
+	padding-left: 22%;
+}
+/* Paragraphs in footer */
+footer .footerlinks p {
+	display: inline;
+}
+}
+/*media query for small screen devices */
+@media screen and (max-width:480px) {
+/*Container for links in header */
+#mainWrapper header #headerLinks {
+	width: 100%;
+	text-align: center;
+	background-color: rgba(190,190,190,1.00);
+	padding-bottom: 21px;
+}
+/* Logo placeholder*/
+#mainWrapper header #logo {
+	width: 100%;
+	text-align: center;
+}
+/* Links in header */
+header #headerLinks a {
+	text-align: center;
+	padding-right: 15px;
+	padding-left: 0px;
+}
+/*Offer - Text Banner */
+#mainWrapper #offer {
+	padding-left: 0px;
+	text-align: center;
+}
+/* Menubar in sidebar */
+#content .sidebar #menubar {
+	position: relative;
+	left: -8%;
+	text-align: center;
+}
+/* Each product in catalog view */
+.mainContent .productRow .productInfo {
+	width: 100%;
+	display: block;
+	padding-left: 0px;
+	padding-right: 0px;
+	position: relative;
+	left: -2%;
+}
+#mainWrapper footer div {
+	width: 100%;
+	margin-left: -16px;
+	text-align: justify;
+	padding-bottom: 16px;
+	overflow: auto;
+}
+/* Container for links in footer */
+#mainWrapper footer .footerlinks {
+	padding-left: 8%;
+}
+/* Main content which excludes the sidebar */
+#mainwrapper #content .mainContent {
+	margin-top: -81px;
+	text-align: center;
+	width: 100%;
+	padding-left: 0px;
+}
+}

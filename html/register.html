@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="parallax p1">
+    <div id="fullscreen">
+        <img id="cloud-backup" src="assets/cloud-snapshot.jpg">
+        <video id="cloud-video" src="assets/video/clouds.mp4" autoplay="" loop=""></video>
+    </div>
+    <link rel="stylesheet" href="css/bg.css">
+</div>
+<div id="registration-cont">
+    <h1>Register with us</h1>
+
+    <form id="registrationForm" action="register()" method="post" name="registration_form">
+
+        <div class="field-cont">
+            <p class="field-desc">Username:</p>
+            <input class="field-act" type="text" name="username" id="username"><br>
+        </div>
+
+        <div class="field-cont">
+            <p class="field-desc">Email:</p>
+            <input class="field-act" type="text" name="email" id="email"><br>
+        </div>
+
+        <div class="field-cont">
+            <p class="field-desc">Password:</p>
+            <input class="field-act" type="password" name="password" id="password"><br>
+        </div>
+
+        <div class="field-cont">
+            <p class="field-desc">Confirm password:</p>
+            <input class="field-act" type="password" name="confirmpwd" id="confirmpwd" onkeydown="if (event.keyCode == 13) document.getElementById('submit-button').click()"><br>
+        </div>
+
+
+        <div class="field-cont">
+            <div class="clearfix"></div>
+            <p id="return-link">Return to the <a href="index.php">login page</a>.</p>
+            <input type="button" value="Register" id="submit-button" onclick="return register(this);">
+        </div>
+    </form>
+    <ul id="requirement-list">
+        <li>Usernames use regular characters only.</li>
+        <li>Emails must be valid.</li>
+        <li>Passwords must be at least 6 characters long.</li>
+        <li><b>Passwords are as secure as you make them!</b></li>
+    </ul>
+
+    <p class="error"></p>
+</div>
+<link rel="stylesheet" href="css/register.css">
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/sha512.js"></script>
+<script src="js/registerForm.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
