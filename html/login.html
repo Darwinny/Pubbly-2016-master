@@ -17,13 +17,18 @@
             <span style="color:#3a4d81; font-family:sans-serif; letter-spacing:1px; font-size:1.2em">Password</span>:
             <input id="password" type="password"/>
             <br><input id="submit" type="submit" value="Login" onClick="login()"/>
-            <a href="register.php" id="register">Register</a>
-            <input id="redirect" type="hidden" value="{redirectURL}"/>
+            
         </form>
         <p id="errorTitle">{curTitle}</p>
 
         <p id="errorMesg">{curMessage}</p>
     </div>
+	<div id="registerinfo">
+		
+       <br> <a href="register.php" id="register">Register</a>
+        <input id="redirect" type="hidden" value="{redirectURL}"/>
+		
+	</div>
 </div>
 </body>
 

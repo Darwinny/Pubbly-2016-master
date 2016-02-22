@@ -1,7 +1,7 @@
 @charset "utf-8";
 body {
     background-color: white;
-    font: san-serif;
+    font: sans-serif;
 }
 
 #logo2016 {
@@ -19,9 +19,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 330px;
-    font: san-serif;
+    font: sans-serif;
 }
-
 input {
     border: 2px solid #91bd49;
     height: 50px;
@@ -53,22 +52,42 @@ input {
     font-size: 1em;
     letter-spacing: 1px;
     text-transform: uppercase;
+	margin-left:115px;
 }
 
 #submit:hover {
-    width: 100px;
-    height: 55px;
     border: 3px solid #91bd49;
-    background-color: #8867ac;
+ 
+}
+#register {
+    float: left;
+    width: 330px;
+    height: 55px;
+    border: 1px solid #5aacc5;
+    background-color: #5aacc5;
     color: white;
     font-size: 1em;
     letter-spacing: 1px;
     text-transform: uppercase;
+    border-radius: 5px;
+	font-family:sans-serif;
+	text-align:center;
+	line-height:3.5em;
+	text-decoration:none;
 }
-
-#register {
-    float: right;
-    margin-top: 36px;
+#register:hover {
+    border: 3px solid #91bd49;
+	
+}
+#registerinfo {
+    display: block;
+	margin-top:30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 330px;
+    font: sans-serif;
+	border-top:2px solid #91bd49;
+	
 }
 #errorMesg {
     text-align:center;
